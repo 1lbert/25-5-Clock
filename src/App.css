@@ -1,0 +1,50 @@
+.clock {
+  max-width: 700px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.setters {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+h4 { 
+  color: #1a8dff;
+}
+
+h1 { 
+  color: #1a8dff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 50px;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #1a8dff;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+span {
+  font-size: 24px;
+}
+
+.display {
+  text-align: center;
+  margin-top: 20px;
+}
